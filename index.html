@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="block5"> 
+
+<div class="text">
+<h1>Доходы и расходы за месяц</h1>
+</div>
+
+<div class="block">
+
+    <div class="container">
+        <table>
+            <tr>
+                <td>Категории доходов</td>
+                <td class="td">Сумма</td>
+            </tr>
+
+            <tr>
+                <td>Зарплата</td>
+                <td><input type="text" placeholder="..." id="bill0"></td>
+            </tr>
+
+            <tr>
+                <td>Подработка</td>
+                <td><input type="text" placeholder="..." id="bill1"></td>
+            </tr>
+
+            <tr>
+                <td>Дивиденды</td>
+                <td><input type="text" placeholder="..." id="bill2"></td>
+            </tr>
+
+            <tr>
+                <td>Разное</td>
+                <td><input type="text" placeholder="..." id="bill3"></td>
+            </tr>
+
+        </table>
+     
+
+    <button id="button">Итого</button>
+      <input type="text" placeholder="итого" id="bill4">
+    </div>
+
+
+
+
+
+
+  <div class="container">
+    <table>
+        <tr>
+            <td>Категории расходов</td>
+            <td class="hd">Сумма</td>
+        </tr>
+
+        <tr>
+            <td>Квартира</td>
+            <td><input type="text" placeholder="..." id="pill0"></td>
+        </tr>
+
+        <tr>
+            <td>Еда</td>
+            <td><input type="text" placeholder="..." id="pill1"></td>
+        </tr>
+
+        <tr>
+            <td>Разное</td>
+            <td><input type="text" placeholder="..." id="pill2"></td>
+        </tr>
+
+        <tr>
+            <td>Школа</td>
+            <td><input type="text" placeholder="..." id="pill3"></td>
+        </tr>
+
+    </table>
+
+
+<button id="button2">Итого</button>
+  <input type="text" placeholder="итого" id="bill5">
+</div>
+</div>
+
+
+<div id="block">
+    <button id="btn">Остаток</button>
+<input type="text" placeholder="" id="btn2">
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>  
+</body>
+</html>

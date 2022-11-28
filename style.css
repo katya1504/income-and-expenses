@@ -1,0 +1,136 @@
+body{
+background-image: url(calculate.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgb(235, 220, 231);
+}
+
+.block5{
+margin-top: 50px;
+}
+
+.text{
+display: flex;
+justify-content: center;
+font-size: 30px;
+color: rgb(112, 59, 99);
+font-family: 'Montserrat', sans-serif;
+background-color: rgba(99, 75, 89, 0.5);
+	box-shadow: -10px 0 0 rgba(78, 63, 76, 0.5), 10px 0 0 rgba(109, 68, 99, 0.5);
+	padding: 0 10px 0 0;
+	color: #f5eaee;
+    text-shadow:
+    2px  2px 0 rgb(58, 19, 43),
+   -1px -1px 0 rgb(58, 19, 43),  
+    1px -1px 0 rgb(58, 19, 43),
+   -1px  1px 0 rgb(58, 19, 43),
+    1px  1px 0 rgb(58, 19, 43);
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+}
+
+.container{
+margin: 20px;
+width: 500px; ;
+height: 300px;
+background-color: rgb(240, 222, 237);
+padding: 30px;
+border: 2px solid rgb(129, 55, 84);
+}
+
+
+#bill4{
+    color: rgb(58, 19, 43);
+}
+
+td{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(58, 19, 43);
+    
+}
+
+input{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#button, #button2{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    background-color: rgb(179, 123, 154);
+}
+
+#bill5{
+margin-left: 17px;
+}
+#bill4{
+    margin-left: 7px;
+}
+
+#block{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+}
+
+#btn{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    background-color: rgb(179, 123, 154);
+    
+}
+
+@media all and (max-width: 800px){
+.text{
+font-size: 13px;
+}
+
+ .block{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        margin: 10px;
+        width: 300px; ;
+        height: 200px;
+       padding: 20px;
+         }
+
+         td{
+            font-size: 10px;
+        }
+    
+        input{
+            padding: 5px;
+        }
+        #button, #button2{
+            padding: 5px;
+            width: 100px;
+        }
+        #btn{
+            padding: 5px;
+            width: 100px;
+            }
+
+            #bill5{
+                margin-left: 10px;
+                }
+                #bill4{
+                    margin-left: 5px;
+                }
+     }
+   
+     
+      
+      @media all and (max-width: 500px){
+ 
+        }
+          
